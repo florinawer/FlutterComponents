@@ -1,7 +1,6 @@
 # FlutterComponents
-#  Proyecto Trading 
 
-El proyecto de Trading es un proyecto realizado durante el Bootcamp de .Net.
+El proyecto de Flutter es un proyecto realizado durante las tardes.
 
 El proyecto está formado por un conjunto de soluciones que tienen como finalidad la posibilidad de mantener actualizadas tanto las acciones que un usuario compra, como la base de datos de las mismas actualizandose a través de una Api pública que proporciona los datos.
 
@@ -17,7 +16,7 @@ El proyecto está formado por 2 aplicaciones para asegurar la trazabilidad e int
 ## Architectura
 La Arquitectura utilizada para el desarrollo de las aplicaciones es **Domain-Driven Design** que es un conjunto de patrones principios y prácticas que nos ayudan a entender y resolver los problemas del negocio en el diseño de sistemas orientados a objetos.
  
-<img style="padding:10px" src="./Docs/architecture.png" alt="drawing" width="600"/>
+<img style="padding:10px" src="./assets/asd.png" alt="drawing" width="600"/>
 
 # Tech Stack
 ### Tecnologías utilizadas en la **Trading.Web.Api**
