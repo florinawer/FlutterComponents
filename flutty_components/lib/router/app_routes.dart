@@ -10,22 +10,23 @@ class AppRoutes {
     //TODO borrar home
     MenuOption(
         route: 'home',
-        name: ' screen',
+        name: 'home',
         screen: const HomeScreen(),
         icon: Icons.home_max_rounded),
     MenuOption(
         route: 'home2',
-        name: ' screen',
+        name: 'home2',
         screen: const Home2(),
         icon: Icons.house_siding_rounded),
     MenuOption(
         route: 'alert_screen',
-        name: ' screen',
+        name: 'alert',
         screen: const AlertScreen(),
         icon: Icons.add_alert_rounded)
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
+    //por cada ruta devuelve un objeto de este tipo en appRoutes
     Map<String, Widget Function(BuildContext)> appRoutes = {};
 
     for (final option in menuOptions) {
