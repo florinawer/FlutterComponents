@@ -8,19 +8,17 @@ class Home2 extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-          appBar: AppBar(
-            title: const Text('Lista stf in plm'),
-          ),
-          body: ListView(
-            children: [
-              ...options.map( 
-                (e) => ListTile(
-                  title: Text(e),
-                  trailing: const Icon(Icons.arrow_right_alt)
-                )
-              ).toList()              
-            ],
-          )
-    );
+        appBar: AppBar(
+          title: const Text('Putina cocaina '),
+        ),
+        body: ListView(
+          children: [
+            ...options
+                .map((e) => ListTile(
+                    title: Text(e),
+                    trailing: const Icon(Icons.arrow_right_alt)))
+                .toList()
+          ],
+        ));
   }
 }
