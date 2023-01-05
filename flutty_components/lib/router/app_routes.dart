@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutty_components/models/models.dart';
 import 'package:flutty_components/screens/screens.dart';
 
+import '../screens/card.dart';
+
 class AppRoutes {
   static const initialRoute = 'home';
 
   static final menuOptions = <MenuOption>[
-    //TODO borrar home
     MenuOption(
         route: 'home',
         name: 'home',
@@ -22,7 +23,12 @@ class AppRoutes {
         route: 'alert_screen',
         name: 'alert',
         screen: const AlertScreen(),
-        icon: Icons.add_alert_rounded)
+        icon: Icons.add_alert_rounded),
+    MenuOption(
+        route: 'card',
+        name: 'card',
+        screen: const CardScreen(),
+        icon: Icons.add_card_rounded)
   ];
 
   static Map<String, Widget Function(BuildContext)> getAppRoutes() {
