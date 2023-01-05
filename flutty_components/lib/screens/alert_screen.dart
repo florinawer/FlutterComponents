@@ -7,7 +7,7 @@ class AlertScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('pls sa te fut in mamicaaa'),
+        title: const Text('Mai mult mai mult mai mult'),
       ),
     );
   }
