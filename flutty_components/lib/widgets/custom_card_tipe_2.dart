@@ -34,10 +34,11 @@ class CustomCardType2 extends StatelessWidget {
           fadeInDuration: const Duration(milliseconds: 300),
           fit: BoxFit.cover,
         ),
-
-        if(imageText != null)
+        
+        //logic for footer
+        if (imageText != null)
           Container(
-            alignment: AlignmentDirectional.centerEnd,
+            alignment: AlignmentDirectional.center,
             padding: const EdgeInsets.only(right: 20, top: 10, bottom: 10),
             child: Text(imageText!),
           )

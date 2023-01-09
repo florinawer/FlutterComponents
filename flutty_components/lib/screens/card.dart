@@ -8,7 +8,7 @@ class CardScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Eu stiu Carduri'),
+          title: const Text('Nea JIJI descoperit'),
         ),
         body: ListView(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -18,23 +18,40 @@ class CardScreen extends StatelessWidget {
 
             CustomCardType2(
                 imageUrl:
-                    'https://r1.ilikewallpaper.net/iphone-8-plus-wallpapers/download-109650/Mikasa-Attack-Titan-Attack-On-Titan-4k-Mikasa-Acke.jpg',
-                imageText: 'tranki pava'),
+                    'https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440',
+                imageText: 'sunset'),
             SizedBox(height: 20),
 
             CustomCardType2(
                 imageUrl:
-                    'https://i.pinimg.com/originals/45/57/20/455720e9019fb22ff9fff89522313884.png',
-                imageText: 'calentando motores'),
+                    'https://www.blogdelfotografo.com/wp-content/uploads/2015/09/Paisaje-de-contrastes.jpg',
+                imageText: 'Machala set'),
             SizedBox(height: 20),
 
             CustomCardType2(
-              imageUrl:
-                  'https://rare-gallery.com/mocahbig/395262-mikasa-ackerman-attack-on-titan-aot-4k-pc.jpg',
+                imageUrl:
+                    'https://www.hofmann.es/blog/wp-content/uploads/2021/09/HF_3_Paisajes_WEB-23-1024x768.jpg',
+                imageText: 'cascada'),
+            SizedBox(height: 20),
 
-              //si dejas comentado esto no construye el contenedor
-              imageText: 'ñaaaa, te rajo pavo',
-            ),
+            CustomCardType2(
+                imageUrl:
+                    'https://media.evz.ro/wp-content/uploads/2022/03/gigi-becali.jpg',
+                imageText: 'iooooi câtai Sfântul'),
+            SizedBox(height: 20),
+
+            CustomCardType2(
+                imageUrl:
+                    'https://s1.eestatic.com/2022/02/24/actualidad/652695290_222159372_1706x960.jpg',
+                imageText: 'Opincarii mei favoriti'),
+            SizedBox(height: 20),
+
+            CustomCardType2(
+                imageUrl:
+                    'https://static01.nyt.com/images/2017/04/03/sports/03romaniasoccer01/03romaniasoccer01-superJumbo.jpg',
+                imageText: 'Dublu Boss International'
+                //si dejas comentado esto no construye el contenedor
+                ),
             //para poder hacer mas scroll hacia abajo
             SizedBox(height: 100),
           ],
