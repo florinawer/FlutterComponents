@@ -1,22 +1,20 @@
 # FlutterComponents
 
-El proyecto de Flutter es un proyecto realizado durante las tardes.
+El proyecto de Flutter es un proyecto porque no hay futuro sin Flutter.
 
 El proyecto está formado por un conjunto de soluciones que tienen como finalidad la posibilidad de mantener actualizadas tanto las acciones que un usuario compra, como la base de datos de las mismas actualizandose a través de una Api pública que proporciona los datos.
 
-El proyecto empezó por una clase donde creabamos a mano una acción ficticia y la imprimiamos por consola, y según avanzaba el curso de formación se han ido incorporando arquitecturas, patrones de diseño, herramientas y muchas otras características.
-
 # Aplicaciones
-El proyecto está formado por 2 aplicaciones para asegurar la trazabilidad e integridad de todos los datos tratados.
+El proyecto está formado por varios componentes donde se documenta cada paso con la finalidad de aprender a hacerlo todo
 
-- **Trading.Web.Api** La primera aplicación desarrollada se encarga de mantener actualizados y disponibles los datos de las acciones. 
--  **Trading.App.Client** La segunda aplicación se encarga de mostrar al usuario final la interfaz para interactuar con la Api y realizar acciones.
+- **Home Screen** La primera pantalla desarrollada se encarga de mostrar el listado complejo de todos los componentes.
+-  **Components** Cada pantalla secundaria explica como se ha desarrollado y links a código para ver la manera en la que se ha desarrollado.
 
 # Diseño de las Aplicaciones  
 ## Architectura
 La Arquitectura utilizada para el desarrollo de las aplicaciones es **Domain-Driven Design** que es un conjunto de patrones principios y prácticas que nos ayudan a entender y resolver los problemas del negocio en el diseño de sistemas orientados a objetos.
  
-<img style="padding:10px" src="./assets/jar.gif" alt="drawing" width="600"/>
+<img style="padding:10px" src="./assets/img/design.jpg" alt="drawing" width="600"/>
 
 # Tech Stack
 ### Tecnologías utilizadas en la **Trading.Web.Api**
