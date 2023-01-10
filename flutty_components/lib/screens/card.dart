@@ -8,7 +8,7 @@ class CardScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Nea JIJI descoperit'),
+          title: const Text('Cards examples'),
         ),
         body: ListView(
           padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
@@ -18,13 +18,13 @@ class CardScreen extends StatelessWidget {
 
             CustomCardType2(
                 imageUrl:
-                    'https://www.xtrafondos.com/descargar.php?id=5846&resolucion=2560x1440',
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTn9L55B_tDZZ4kAWSf9nEiuaTWpRq0an_Pw&usqp=CAU',
                 imageText: 'sunset'),
             SizedBox(height: 20),
 
             CustomCardType2(
                 imageUrl:
-                    'https://www.blogdelfotografo.com/wp-content/uploads/2015/09/Paisaje-de-contrastes.jpg',
+                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTn9L55B_tDZZ4kAWSf9nEiuaTWpRq0an_Pw&usqp=CAU',
                 imageText: 'Machala set'),
             SizedBox(height: 20),
 
