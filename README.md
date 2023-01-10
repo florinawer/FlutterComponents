@@ -16,7 +16,7 @@ El proyecto está formado por 2 aplicaciones para asegurar la trazabilidad e int
 ## Architectura
 La Arquitectura utilizada para el desarrollo de las aplicaciones es **Domain-Driven Design** que es un conjunto de patrones principios y prácticas que nos ayudan a entender y resolver los problemas del negocio en el diseño de sistemas orientados a objetos.
  
-<img style="padding:10px" src="./assets/asd.png" alt="drawing" width="600"/>
+<img style="padding:10px" src="./assets/jar.gif" alt="drawing" width="600"/>
 
 # Tech Stack
 ### Tecnologías utilizadas en la **Trading.Web.Api**
