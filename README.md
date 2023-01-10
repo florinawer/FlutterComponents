@@ -14,7 +14,7 @@ El proyecto está formado por varios componentes donde se documenta cada paso co
 ## Architectura
 La Arquitectura utilizada para el desarrollo de las aplicaciones es **Domain-Driven Design** que es un conjunto de patrones principios y prácticas que nos ayudan a entender y resolver los problemas del negocio en el diseño de sistemas orientados a objetos.
  
-<img style="padding:10px" src="flutty_components/assets/img/design.jpg" alt="drawing" width="600"/>
+<img style="padding:10px" src="flutty_components\assets\img\design.jpg" alt="drawing" width="600"/>
 
 # Tech Stack
 ### Tecnologías utilizadas en la **Trading.Web.Api**
