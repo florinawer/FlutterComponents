@@ -25,7 +25,7 @@ class CustomCardType2 extends StatelessWidget {
       child: Column(children: [
         FadeInImage(
           //acordarse  seguir identacion correcta en pubspec.yaml
-          placeholder: const AssetImage('assets/jar.gif'),
+          placeholder: const AssetImage('assets/img/loading.gif'),
 
           //la que llega de url
           image: NetworkImage(imageUrl),
@@ -34,7 +34,7 @@ class CustomCardType2 extends StatelessWidget {
           fadeInDuration: const Duration(milliseconds: 300),
           fit: BoxFit.cover,
         ),
-        
+
         //logic for footer
         if (imageText != null)
           Container(

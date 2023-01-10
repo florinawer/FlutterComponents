@@ -12,9 +12,8 @@ class CustomCardTipo1 extends StatelessWidget {
         child: Column(children: [
       const ListTile(
         leading: Icon(Icons.photo_album_outlined, color: AppTheme.primary),
-        title: Text('Eu eu si doar eu'),
-        subtitle: Text(
-            'Eu stiu eu fac eu dreg, si nu mie frica de nimic si de nimeni eu is Nea JIJI'),
+        title: Text('plm stf plt pzs'),
+        subtitle: Text('Que pesadilla que eres'),
       ),
       Padding(
         padding: const EdgeInsets.only(right: 5),
