@@ -17,9 +17,27 @@ class AppTheme {
       //elevated button
       elevatedButtonTheme: ElevatedButtonThemeData(
         style: ElevatedButton.styleFrom(
-            primary: Colors.indigo,
-            shape: const StadiumBorder(),
-            elevation: 0),
+            primary: Colors.indigo, shape: const StadiumBorder(), elevation: 0),
+      ),
+
+      //temas para los inputs cuando no haces focus o cuando lo haces hace lo mismo
+      inputDecorationTheme: const InputDecorationTheme(
+        floatingLabelStyle: TextStyle(color: primary),
+        enabledBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: primary),
+            borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(10),
+                topRight: Radius.circular(10))),
+        focusedBorder: OutlineInputBorder(
+            borderSide: BorderSide(color: primary),
+            borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(10),
+                topRight: Radius.circular(10))),
+        border: OutlineInputBorder(
+            borderSide: BorderSide(color: primary),
+            borderRadius: BorderRadius.only(
+                bottomLeft: Radius.circular(10),
+                topRight: Radius.circular(10))),
       ),
 
       //se le pone aqui y todos los TextBotones se pasan a este color
