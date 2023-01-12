@@ -30,6 +30,11 @@ class AppRoutes {
         screen: const AnimatedScreen(),
         icon: Icons.play_arrow_rounded),
     MenuOption(
+        route: 'input_screen',
+        name: 'inputs',
+        screen: const InputsScreen(),
+        icon: Icons.settings_input_svideo_rounded),
+    MenuOption(
         route: 'card',
         name: 'card',
         screen: const CardScreen(),
