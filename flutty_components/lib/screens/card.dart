@@ -18,7 +18,7 @@ class CardScreen extends StatelessWidget {
 
             CustomCardType2(
                 imageUrl:
-                    'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQTn9L55B_tDZZ4kAWSf9nEiuaTWpRq0an_Pw&usqp=CAU',
+                    'https://cdn.masterclassphotographers.com/wp-content/uploads/2022/02/14120528/75da94e44c1e241119db23309302fd91-1-1024x819.jpg',
                 imageText: 'sunset'),
             SizedBox(height: 20),
 
