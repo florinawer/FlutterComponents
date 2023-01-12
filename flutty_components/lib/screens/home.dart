@@ -11,11 +11,14 @@ class HomeScreen extends StatelessWidget {
 
     return Scaffold(
         appBar: AppBar(
-          title: const Text('Hai Domnul JIJI  Becali'),
+          title: const Text('Componentes Listados'),
         ),
         body: ListView.separated(
             itemBuilder: (context, i) => ListTile(
-                  leading: Icon(menuOptions[i].icon, color: AppTheme.primary,),
+                  leading: Icon(
+                    menuOptions[i].icon,
+                    color: AppTheme.primary,
+                  ),
                   title: Text(menuOptions[i].name),
                   onTap: () {
                     //hard way
@@ -24,7 +27,7 @@ class HomeScreen extends StatelessWidget {
                     //    Navigator.push(context, route);
 
                     //easy way
-                    Navigator.pushNamed(context,menuOptions[i].route);
+                    Navigator.pushNamed(context, menuOptions[i].route);
                   },
                 ),
             separatorBuilder: (_, __) => const Divider(),

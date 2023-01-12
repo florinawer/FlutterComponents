@@ -1,3 +1,6 @@
+import 'dart:io';
+
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class AlertScreen extends StatelessWidget {
@@ -11,10 +14,10 @@ class AlertScreen extends StatelessWidget {
       ),
       body: Center(
           child: ElevatedButton(
-              onPressed: () => displayDialog(
-                    context,
-                  ), //hace referencia al metodo, no lo ejecuta
-              //el diseño del boton lo pilla desde app_theme ya que todos los botones de este tipo se han determinado con un estilo
+              onPressed: () => !Platform.isAndroid
+                  //decide si estas ejecutando en android o en iphone y llama al metodo
+                  ? displayDialogAndroid(context)
+                  : displayDialogIOS(context),
               child: const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
                 child: Text('Show Alert', style: TextStyle(fontSize: 15)),
@@ -26,7 +29,37 @@ class AlertScreen extends StatelessWidget {
     );
   }
 
-  void displayDialog(BuildContext context) {
+  void displayDialogIOS(BuildContext context) {
+    showCupertinoDialog(
+        barrierDismissible: true,
+        context: context,
+        builder: (context) {
+          return CupertinoAlertDialog(
+            title: const Text('Alert jumped'),
+            content: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: const [
+                Text('Alert important content'),
+                SizedBox(height: 10),
+                FlutterLogo(
+                  size: 100,
+                )
+              ],
+            ),
+            actions: [
+              TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text('Cancel',
+                      style: TextStyle(color: Colors.red))),
+              TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text('OK'))
+            ],
+          );
+        });
+  }
+
+  void displayDialogAndroid(BuildContext context) {
     showDialog(
         barrierDismissible:
             false, //si pulsas fuera del pop up se cierra estando a true
