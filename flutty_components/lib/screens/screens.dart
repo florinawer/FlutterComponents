@@ -1,4 +1,5 @@
 export 'package:flutty_components/screens/inputs_screen.dart';
+export 'package:flutty_components/screens/slider_screen.dart';
 export 'package:flutty_components/screens/animated_screen.dart';
 export 'package:flutty_components/screens/alert_screen.dart';
 export 'package:flutty_components/screens/home.dart';
