@@ -12,7 +12,8 @@ class InputsScreen extends StatelessWidget {
     final Map<String, String> formValues = {
       'user_name': 'Ves',
       'email': 'Puxi@google.com',
-      'password': 'puxi'
+      'password': 'puxi',
+      'rol': 'idiot'
     };
 
     return Scaffold(
@@ -53,6 +54,19 @@ class InputsScreen extends StatelessWidget {
                   formValues: formValues,
                 ),
                 const SizedBox(height: 30),
+
+                DropdownButtonFormField<String>(
+                  value: "Admin",
+                  items: const [
+                    DropdownMenuItem(value: 'Admin', child: Text('Admin')),
+                    DropdownMenuItem(
+                        value: 'Developer', child: Text('Developer')),
+                    DropdownMenuItem(value: 'devOps', child: Text('devOps'))
+                  ],
+                  onChanged: (String? value) {
+                    formValues['rol'] = value ?? 'Admin';
+                  },
+                ),
 
                 ElevatedButton(
                   child: const SizedBox(

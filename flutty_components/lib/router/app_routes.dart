@@ -35,6 +35,11 @@ class AppRoutes {
         screen: const InputsScreen(),
         icon: Icons.settings_input_svideo_rounded),
     MenuOption(
+        route: 'slider_screen',
+        name: 'slider',
+        screen: const SliderScreen(),
+        icon: Icons.slideshow_rounded),
+    MenuOption(
         route: 'card',
         name: 'card',
         screen: const CardScreen(),
