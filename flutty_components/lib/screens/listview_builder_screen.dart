@@ -109,7 +109,7 @@ class _ListviewBuilderScreenState extends State<ListviewBuilderScreen> {
                 bottom: 20,
                 //se muestra centrado basandose en el tamaño de la pantalla
                 left: size.width * 0.5 - 30,
-                child: _LoadinIcon(),
+                child: const _LoadinIcon(),
               ),
           ],
         ),
