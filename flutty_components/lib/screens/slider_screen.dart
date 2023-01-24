@@ -69,6 +69,7 @@ class _SliderScreenState extends State<SliderScreen> {
 
             Expanded(
               child: SingleChildScrollView(
+                physics: const BouncingScrollPhysics(),
                 child: Image(
                   image: const NetworkImage(
                       'https://e00-elmundo.uecdn.es/assets/multimedia/imagenes/2022/08/10/16601415554608.jpg'),
@@ -78,12 +79,6 @@ class _SliderScreenState extends State<SliderScreen> {
                 ),
               ),
             ),
-            const SizedBox(height: 100),
-            Column(children: const [
-              Text('davaii'),
-              Text('SUKA'),
-            ]),
-            const SizedBox(height: 20),
           ],
         ));
   }
