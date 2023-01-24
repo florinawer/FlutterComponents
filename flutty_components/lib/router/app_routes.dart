@@ -20,6 +20,11 @@ class AppRoutes {
         screen: const AlertScreen(),
         icon: Icons.add_alert_rounded),
     MenuOption(
+        route: 'listview_builder_screen',
+        name: 'Infinit Scroll & pull to refresh',
+        screen: const ListviewBuilderScreen(),
+        icon: Icons.build_circle_rounded),
+    MenuOption(
         route: 'avatar_screen',
         name: 'avatar',
         screen: const AvatarScreen(),
