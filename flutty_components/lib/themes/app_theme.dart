@@ -16,8 +16,7 @@ class AppTheme {
 
       //elevated button
       elevatedButtonTheme: ElevatedButtonThemeData(
-        style: ElevatedButton.styleFrom(
-            primary: Colors.indigo, shape: const StadiumBorder(), elevation: 0),
+        style: ElevatedButton.styleFrom(backgroundColor: primary),
       ),
 
       //temas para los inputs cuando no haces focus o cuando lo haces hace lo mismo
@@ -42,7 +41,7 @@ class AppTheme {
 
       //se le pone aqui y todos los TextBotones se pasan a este color
       textButtonTheme: TextButtonThemeData(
-        style: TextButton.styleFrom(primary: primary),
+        style: TextButton.styleFrom(foregroundColor: primary),
       ));
 
   static final ThemeData darkTheme = ThemeData.dark().copyWith(
