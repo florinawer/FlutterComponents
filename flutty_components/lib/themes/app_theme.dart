@@ -10,7 +10,7 @@ class AppTheme {
       //AppBar theme
       appBarTheme: const AppBarTheme(color: primary, elevation: 0),
 
-      //
+      //se le pone aqui y todos los floatingActionButton se pasan a este color
       floatingActionButtonTheme: const FloatingActionButtonThemeData(
           backgroundColor: primary, elevation: 5),
 
