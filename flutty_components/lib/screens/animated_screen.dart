@@ -18,6 +18,7 @@ class _AnimatedScreenState extends State<AnimatedScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(126, 153, 96, 96),
       appBar: AppBar(
         title: const Text('Animated Container'),
       ),

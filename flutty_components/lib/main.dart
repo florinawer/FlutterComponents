@@ -11,7 +11,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
-        title: 'Domnul JIJI Becali',
+        title: 'FLUTTER StartUP Project',
 
         //se trae del AppRoutes la variable con valor de la ruta inicial
         initialRoute: AppRoutes.initialRoute,

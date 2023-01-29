@@ -9,19 +9,22 @@ class AlertScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: const Color.fromARGB(126, 153, 96, 96),
       appBar: AppBar(
         title: const Text('Mai mult mai mult mai mult'),
       ),
-      body: Center(
-          child: ElevatedButton(
+      body: Center(      
+          child: ElevatedButton(            
               onPressed: () => !Platform.isAndroid
                   //decide si estas ejecutando en android o en iphone y llama al metodo
                   ? displayDialogAndroid(context)
                   : displayDialogIOS(context),
+              
               child: const Padding(
                 padding: EdgeInsets.symmetric(horizontal: 20, vertical: 8),
-                child: Text('Show Alert', style: TextStyle(fontSize: 15)),
-              ))),
+                child: Text('Show Alert', style: TextStyle(fontSize: 15)),              
+              ))
+              ),
       floatingActionButton: FloatingActionButton(
           //backgroundColor: Colors.purple,
           child: const Icon(Icons.close),
